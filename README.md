@@ -1,13 +1,9 @@
 # Data Mining, Modeling And Analytics – Assignment
-
 ## Overview
-
 This repository contains two machine learning project-based assigments. The projects demonstrate the application of classification and regression techniques to real-world datasets.
-
 The analysis was conducted using Python and Jupyter Notebook.
 
 ## Project 1: Bank Marketing Classification
-
 ### Objective
 To develop machine learning models that identify customers who are likely to subscribe to a term deposit following a bank marketing campaign.
 
@@ -28,7 +24,6 @@ The Bank Marketing dataset contains customer demographic, financial and campaign
 Logistic Regression was selected based on its ability to identify potential subscribers. A decision threshold of 0.60 was selected using validation data.
 
 ## Project 2: Concrete Compressive Strength Regression
-
 ### Objective
 To predict concrete compressive strength using mixture composition and curing age.
 
@@ -57,10 +52,13 @@ Five-fold cross-validation was also used to assess model consistency.
 ## Repository Structure
 
 ```text
-Data_Mining_Assignment_B35752/
+Data_mining_Assignment-Nabyonga_
+Theresa-B35752/
 │
-├── bank-additional-full.csv
-├── Concrete_Data.csv
+├── bank-additional-full-README.txt
+├── Concrete_Data_README.txt
+├── Project_1_report.pdf
+├── Project_2_report.pdf
 ├── Project_1_Bank_Marketing.ipynb
 ├── Project_2_Concrete_Strength.ipynb
 ├── requirements.txt
@@ -83,7 +81,7 @@ Data_Mining_Assignment_B35752/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+https://github.com/teddypatricia/Data-Mining-Assignment-B35752
 ```
 
 ### 2. Navigate to the project folder
@@ -92,7 +90,7 @@ git clone YOUR_GITHUB_REPOSITORY_URL
 cd Data_Mining_Assignment_B35752
 ```
 
-### 3. Create a virtual environment (optional)
+### 3. Create a virtual environment
 
 ```bash
 python -m venv venv
@@ -105,7 +103,6 @@ venv\Scripts\activate
 ```
 
 ### 4. Install dependencies
-
 ```bash
 pip install -r requirements.txt
 ```
